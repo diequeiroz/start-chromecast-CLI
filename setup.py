@@ -16,7 +16,7 @@ here = path.abspath(path.dirname(__file__))
 setup(
     name='startcast',
     
-    version='0.1.0',
+    version='0.1.1',
 
     description='Start chromecast apps from command line',
     long_description='Start chromecast apps from command line',

@@ -1,7 +1,5 @@
 # start-chromecast-CLI
 
-## Config:
-
 ### Install:
 ```pip install startcast```
 

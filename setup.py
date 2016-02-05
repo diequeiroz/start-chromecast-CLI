@@ -16,7 +16,7 @@ here = path.abspath(path.dirname(__file__))
 setup(
     name='startcast',
     
-    version='0.1.1',
+    version='0.1.2',
 
     description='Start chromecast apps from command line',
     long_description='Start chromecast apps from command line',
@@ -47,7 +47,7 @@ setup(
     
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     
-    install_requires=['pychromecast'],
+    install_requires=['PyChromecast==0.7.1'],
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
